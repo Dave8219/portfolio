@@ -186,7 +186,8 @@ const RenderApp = () => {
             </div>
             <div className="code-links">
               <div>
-                <h3>
+                {/*
+ <h3>
                   <a
                     href="https://dave8219.github.io/rock-paper-scissors-game/"
                     target={"_blank"}
@@ -195,6 +196,9 @@ const RenderApp = () => {
                     Live Demo
                   </a>
                 </h3>
+
+               */}
+
                 <h3>
                   <a
                     href="https://github.com/Dave8219/rock-paper-scissors-game.git"
@@ -230,7 +234,9 @@ const RenderApp = () => {
             </div>
             <div className="code-links">
               <div>
-                <h3>
+                {/*
+
+  <h3>
                   <a
                     href="https://dave8219.github.io/calculator-app/"
                     target={"_blank"}
@@ -239,6 +245,9 @@ const RenderApp = () => {
                     Live Demo
                   </a>
                 </h3>
+
+*/}
+
                 <h3>
                   <a
                     href="https://github.com/Dave8219/calculator-app.git"
