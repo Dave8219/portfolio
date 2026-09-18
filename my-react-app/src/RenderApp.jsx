@@ -129,12 +129,6 @@ const RenderApp = () => {
                 className="icon-images"
                 alt="An Image of an Online Store With a Shopping Cart"
               />
-
-              <img
-                src={storeImage}
-                className="icon-images"
-                alt="An Image of an Online Store With a Shopping Cart"
-              />
             </div>
             <div className="code-links">
               <div>
