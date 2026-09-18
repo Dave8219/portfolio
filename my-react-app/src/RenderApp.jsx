@@ -183,18 +183,15 @@ const RenderApp = () => {
             </div>
             <div className="code-links">
               <div>
-                {/*
- <h3>
+                <h3>
                   <a
-                    href="https://dave8219.github.io/rock-paper-scissors-game/"
+                    href="https://rps-26-game.netlify.app/"
                     target={"_blank"}
                     rel="noopener noreferrer"
                   >
                     Live Demo
                   </a>
                 </h3>
-
-               */}
 
                 <h3>
                   <a
