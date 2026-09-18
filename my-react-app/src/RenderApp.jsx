@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import rockImage from "./assets/rock-paper-scissors.png";
-import myLogo from "./assets/my-logo-3.png";
+import myLogo from "./assets/my-logo-3.PNG";
 import storeImage from "./assets/online-store.png";
-import myServices from "./assets/my-services-1.png";
+import myServices from "./assets/my-services-1.PNG";
 import profilePic from "./assets/profile-pic.jpg";
 import toDoListImage from "./assets/to-do-list-image.png";
 import restaurantImage from "./assets/restaurant-menu.png";
