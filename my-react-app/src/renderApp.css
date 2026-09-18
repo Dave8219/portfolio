@@ -1,0 +1,189 @@
+body {
+  background-color: rgb(34, 34, 34);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(36, 35, 35);
+  color: white;
+  font-size: 1rem;
+  font-family: Roboto, sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.header-container {
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgb(36, 35, 35);
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  border-bottom: solid white 1px;
+}
+
+.my-logo {
+  max-width: 160px;
+  height: auto;
+  object-fit: contain;
+}
+
+.header-containers {
+  flex: 1;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 15px;
+  padding: 10px;
+}
+
+.nav-container a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+
+.code-links {
+  text-align: start;
+  display: flex;
+  flex-direction: row;
+  column-gap: 35px;
+}
+
+.code-links h3 {
+  font-size: 1rem;
+}
+
+.code-links h3 a {
+  font-size: 1rem;
+  color: white;
+}
+
+.code-links h3 a:hover {
+  color: rgb(66, 94, 255);
+}
+
+.code-tech {
+  text-align: start;
+  display: flex;
+  flex-direction: row;
+  column-gap: 35px;
+}
+
+.portfolio-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 60px;
+  padding: 50px;
+  row-gap: 25px;
+}
+
+.portfolio-header {
+  font-size: 2rem;
+}
+
+.heading-text {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  column-gap: 8px;
+}
+
+.profile-pic {
+  max-width: 375px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+.color-name {
+  color: red;
+}
+.hero-text {
+  padding: 25px 35px;
+  text-align: start;
+}
+
+.main-headline {
+  text-align: center;
+}
+
+.learn-more-cta {
+  font-size: 1rem;
+  background-color: rgb(236, 161, 21);
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+}
+
+.my-services {
+  max-width: 400px;
+  height: auto;
+  object-fit: contain;
+  padding-top: 25px;
+}
+
+.icon-images {
+  object-fit: cover;
+  cursor: pointer;
+  transition: 0.5s ease;
+  height: 100%;
+  width: 100%;
+}
+
+.icon-images:hover {
+  opacity: 0.5;
+}
+
+.icon-images:active {
+  opacity: 1;
+}
+
+.image-background {
+  background-color: rgba(255, 255, 255, 0.664);
+  width: 418px;
+  height: 262px;
+}
+
+.portfolio-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  align-items: center;
+}
+
+.port-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.portfolio-header:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

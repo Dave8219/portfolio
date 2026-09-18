@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: rgb(36, 35, 35);
+        color: white;
+        font-size: 1rem;
+        font-family: Roboto, sans-serif;
+      }
+
+      li {
+        list-style: none;
+      }
+
+      h1 {
+        font-size: 3rem;
+      }
+
+      h2 {
+        font-size: 2rem;
+      }
+
+      .header-container {
+        display: flex;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: rgb(36, 35, 35);
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+        border-bottom: solid white 1px;
+      }
+
+      .my-logo {
+        max-width: 160px;
+        height: auto;
+        object-fit: contain;
+      }
+
+      .header-containers {
+        flex: 1;
+      }
+
+      .nav-container {
+        display: flex;
+        flex-direction: row;
+        column-gap: 15px;
+        padding: 10px;
+      }
+
+      .portfolio-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 60px;
+        padding: 50px;
+        row-gap: 25px;
+      }
+
+      .portfolio-header {
+        font-size: 2rem;
+      }
+
+      .profile-pic {
+        max-width: 500px;
+        height: auto;
+        object-fit: contain;
+        border-radius: 20px;
+      }
+
+      .color-name {
+        color: red;
+      }
+.hero-text {
+  padding: 25px 35px;
+  text-align: start;
+}
+
+.main-headline {
+  text-align: center;
+}
+
+
+.learn-more-cta {
+  font-size: 1rem;
+  background-color: rgb(236, 161, 21);
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+}
+
+
+.my-services {
+  max-width: 400px;
+  height: auto;
+  object-fit: contain;
+  padding-top: 25px;
+}
+
+.icon-images {
+  object-fit: cover;
+  cursor: pointer;
+  transition: 0.50s ease;
+  height: 100%;
+  width: 100%;
+}
+
+
+.icon-images:hover {
+opacity: 0.5;
+
+
+}
+
+.icon-images:active {
+opacity: 1;
+}
+
+
+.image-background {
+  background-color: rgba(255, 255, 255, 0.664);
+  width: 418px;
+  height: 262px;
+}
+
+
+
+.portfolio-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  align-items: center;
+}
+
+.port-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+
+.portfolio-header:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+    </style>
+  </head>
+  <body>
+    <header class="header-container">
+      <div class="header-containers">
+        <img
+          src="my-react-app/src/assets/my-logo-3.PNG"
+          alt="My Logo"
+          class="my-logo"
+        />
+      </div>
+      <div class="header-containers"></div>
+      <nav class="header-containers">
+        <ul class="nav-container">
+          <li>Home</li>
+          <li>Experience</li>
+          <li>About Me</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="portfolio-container">
+        <div class="hero-text">
+          <h1>Welcome!</h1>
+          <br><br>
+          <h2>
+            My name is <span class="color-name">David</span>.
+          </h2>
+    <h2>
+  I'm a full-stack software 
+  <br>
+  engineer & web developer.</h2>
+    </h2>
+    <br><br>
+    <button class="learn-more-cta">Learn More</button>
+    <div>
+<img src="/my-react-app/src/assets/my-services-1.PNG" al="A List of My Programming Languages" class="my-services">
+
+    </div>
+    
+</div>
+        <div>
+          <img
+            src="/my-react-app/src/assets/my-profile-pic.png"
+            class="profile-pic"
+          />
+        </div>
+      </section>
+
+<section>
+  <div class="main-headline">
+    <h1>My Portfolio</h1>
+  </div>
+
+  
+</section>
+
+<section class="portfolio-container">
+<div class="port-container">
+    <h1 class="portfolio-header">Rock, Paper, Scissors Game</h1>
+    <div class="image-background">
+        <img src="my-react-app/src/assets/rock-paper-scissors.png" class="icon-images">
+    </div>
+    
+</div>
+<div class="port-container">
+    <h1 class="portfolio-header">To-Do List Management App</h1>
+    <div class="image-background">
+        <img src="my-react-app/src/assets/to-do-list-image.png" class="icon-images">
+    </div>
+</div>
+<div class="port-container">
+    <h1 class="portfolio-header">Online Store</h1>
+    <div class="image-background">
+        <img src="my-react-app/src/assets/online-store.png" class="icon-images">
+    </div>
+</div>
+<div class="port-container">
+    <h1 class="portfolio-header">Restaurant Menu</h1>
+    <div class="image-background">
+        <img src="my-react-app/src/assets/restaurant-menu.png" class="icon-images">
+    </div>
+</div>
+<div class="port-container">
+    <h1 class="portfolio-header">Calculator</h1>
+    <div class="image-background">
+        <img src="my-react-app/src/assets/calculator.png" class="icon-images">
+    </div>
+</div>
+<div class="port-container">
+    <h1 class="portfolio-header">Video Carousel Slider</h1>
+    <div class="image-background">
+        <img src="my-react-app/src/assets/play-button.png" class="icon-images">
+    </div>
+</div>
+
+<div class="port-container">
+    <h1 class="portfolio-header">Database App</h1>
+    <div class="image-background">
+        <img src="my-react-app/src/assets/database.png" class="icon-images">
+    </div>
+</div>
+
+
+<div class="port-container">
+    <h1 class="portfolio-header">Weather App</h1>
+    <div class="image-background">
+        <img src="my-react-app/src/assets/umbrella-pic.png" class="icon-images">
+    </div>
+</div>
+
+</section>
+
+
+
+
+
+    </main>
+  </body>
+</html>
