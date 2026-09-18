@@ -138,7 +138,8 @@ const RenderApp = () => {
             </div>
             <div className="code-links">
               <div>
-                <h3>
+                {/*
+  <h3>
                   <a
                     href="https://dave8219.github.io/amazon-store-clone/index.html"
                     target={"_blank"}
@@ -147,6 +148,9 @@ const RenderApp = () => {
                     Live Demo
                   </a>
                 </h3>
+
+                */}
+
                 <h3>
                   <a
                     href="https://github.com/Dave8219/amazon-store-clone.git"
