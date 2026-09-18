@@ -120,37 +120,33 @@ const RenderApp = () => {
           <div className="port-container">
             <div className="heading-text">
               <h1 className="portfolio-header">Online Store -</h1>
-              <h3>Amazon Clone</h3>
+              <h3>Online Store</h3>
             </div>
 
             <div className="image-background">
-              <a
-                href="https://online-store-clone.netlify.app/"
-                target={"_blank"}
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={storeImage}
-                  className="icon-images"
-                  alt="An Image of an Online Store With a Shopping Cart"
-                />
-              </a>
+              <img
+                src={storeImage}
+                className="icon-images"
+                alt="An Image of an Online Store With a Shopping Cart"
+              />
+
+              <img
+                src={storeImage}
+                className="icon-images"
+                alt="An Image of an Online Store With a Shopping Cart"
+              />
             </div>
             <div className="code-links">
               <div>
+                {/*
                 <h3>
-                  <a
-                    href="https://online-store-clone.netlify.app/"
-                    target={"_blank"}
-                    rel="noopener noreferrer"
-                  >
                     Live Demo
-                  </a>
+                  
                 </h3>
-
+*/}
                 <h3>
                   <a
-                    href="https://github.com/Dave8219/amazon-store-clone.git"
+                    href="https://github.com/Dave8219/online-store.git"
                     target={"_blank"}
                     rel="noopener noreferrer"
                   >
