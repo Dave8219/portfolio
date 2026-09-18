@@ -125,7 +125,7 @@ const RenderApp = () => {
 
             <div className="image-background">
               <a
-                href="https://dave8219.github.io/amazon-store-clone/index.html"
+                href="https://online-store-clone.netlify.app/"
                 target={"_blank"}
                 rel="noopener noreferrer"
               >
@@ -170,7 +170,7 @@ const RenderApp = () => {
             <h1 className="portfolio-header">Rock, Paper, Scissors Game</h1>
             <div className="image-background">
               <a
-                href="https://dave8219.github.io/rock-paper-scissors-game/"
+                href="https://rps-26-game.netlify.app/"
                 target={"_blank"}
                 rel="noopener noreferrer"
               >
@@ -215,7 +215,7 @@ const RenderApp = () => {
             <h1 className="portfolio-header">Calculator</h1>
             <div className="image-background">
               <a
-                href="https://dave8219.github.io/calculator-app/"
+                href="https://my-calculator-appli.netlify.app/"
                 target={"_blank"}
                 rel="noopener noreferrer"
               >
