@@ -228,19 +228,15 @@ const RenderApp = () => {
             </div>
             <div className="code-links">
               <div>
-                {/*
-
-  <h3>
+                <h3>
                   <a
-                    href="https://dave8219.github.io/calculator-app/"
+                    href="https://my-calculator-appli.netlify.app/"
                     target={"_blank"}
                     rel="noopener noreferrer"
                   >
                     Live Demo
                   </a>
                 </h3>
-
-*/}
 
                 <h3>
                   <a
